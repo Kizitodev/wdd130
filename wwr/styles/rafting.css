@@ -93,3 +93,57 @@ section h2 {
     text-align: center;
     background-color: var(--accent2-color);
 }
+
+/* week 4 css update */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: var(--primary-color);
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.history-area {
+    display: flex;
+    align-items: center;
+}
+
+.history-area img {
+    width: 200px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.addventure-area {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.addventure-area img {
+    width: 135px;
+    height: auto;
+    margin-left: 16px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
