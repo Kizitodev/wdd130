@@ -62,7 +62,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -146,4 +146,74 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*      WEEK 5 CONTACT INFORMATION */
+.contact-info {
+    text-align: center;
+    padding: 16px;
+    color: var(--primary-color);
+}
+
+.contact-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map-area iframe {
+    width: 400px;
+    height: 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 16px;
+    color: var(--accent1-color);
+}
+
+input {
+    padding: 6px;
+    margin: 5px 10px;
+}
+
+.check-info {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* employee-area */
+.employee-area {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    justify-content: space-between;
+}
+
+.employee-area img {
+    width: 135px;
+    height: auto;
+    margin-left: 16px;
+}
+
+.employee-area figcaption {
+    text-align: center;
+}
+
+label {
+    margin: 8px 0;
+}
+
+textarea {
+    padding: 6px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px;
+    margin: 16px 0;
+    cursor: pointer;
 }
