@@ -257,9 +257,6 @@ button {
 .trips-img-area img {
     width: 200px;
     height: auto;
-}
-
-.trips-img-area img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
