@@ -79,9 +79,12 @@ article {
     right: 5px;
     left: 5px;
     padding: 16px;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
-    color: #fff;
+    background-color: rgb(244 162 97 / .7);
+    color: #000;
+}
+
+.hero article p {
+    font-size: 18px;
 }
 
 .hero article img {
@@ -216,4 +219,67 @@ button {
     padding: 10px;
     margin: 16px 0;
     cursor: pointer;
+}
+
+/* TRIPS STYLE */
+.trips {
+    text-align: left;
+    padding: 16px;
+}
+
+.trips h1 {
+    color: var(--primary-color);
+}
+
+.trips p {
+    margin: 16px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: var(--primary-color);
+}
+
+.trips-img-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.trips-img-area img {
+    width: 200px;
+    height: auto;
+}
+
+.trips-img-area img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-trips {
+    margin: 16px 0;
+}
+
+.table-trips table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.table-trips th,
+.table-trips td {
+    border: 1px solid var(--accent1-color);
+    padding: 8px;
+    text-align: left;
+}
+
+.table-trips th {
+    background-color: var(--accent2-color);
 }
